@@ -2,9 +2,20 @@
 layout: post
 title: "Hello world!"
 author: "Diego Camargo"
-categories: 
+categories: github
 ---
 
+# Introdução
+
+Quer compartilhar suas habilidades, seus pensamentos ou promover seu trabalho? Criar um site é uma ótima forma de fazer isso. 
+
+Neste tutorial, você será guiado pelas etapas de criação de um site usando GitHub Pages. Ao final desse processo, você terá seu próprio site pronto e funcionando, exibindo suas habilidades e conquistas para o mundo!
+
+O que é GitHub Pages?
+
+GitHub Pages é um serviço gratuito fornecido pela GitHub que permite aos usuários criar e hospedar sites diretamente a partir de seus repositórios da GitHub.
+
+Neste tutorial, vamos nos concentrar em criar um site básico usando GitHub Pages. Vamos abordar as etapas envolvidas na configuração do seu repositório, os ajustes do seu site e implantando o site na web!
 
 # Por que você precisa de um site?
 
@@ -13,12 +24,13 @@ Como vocês puderam perceber, eu iniciei agora o meu [website](d-camargo.github.
 ## Por que fazer um site em 2024?
 
 1. Ainda é uma forma de comunicação, embora atualmente estejam disponíveis várias redes sociais, o site é totalmente personalizavél e pessoal;
-2. Além de informações habituais (acadêmicas, experiências de trabalalho, portifólio, entre outros) é possível você criar um blog. Recentemente encontrei um canal no YouTube do [Tiago Forte](www.youtube.com/@TiagoForte) que entre vários tópicos a base é *take notes*. Pra elevar isso à um patamar mais alto, temos: 
+2. Está voltando um movimento forte dos blogs, novamente. Isso é perceptível através do próprio [LinkeIN](https://linkedin.com/) que agora tem a ferramenta de escrever artigos, contudo, há outras ferramentas existentes, como o [Medium](https://medium.com/) com uma organização bem mais atraente. De qualquer forma, o ato de expor suas ideias, criar *insights* sobre algum assunto e até mesmo ensinar através de texto tem se fortalecido;
+3. Além de informações habituais (acadêmicas, experiências de trabalalho, portifólio, entre outros) é possível você criar um blog. Recentemente encontrei um canal no YouTube do [Tiago Forte](www.youtube.com/@TiagoForte) que entre vários tópicos a base é *take notes*. Pra elevar isso à um patamar mais alto, temos: 
     >"*When one person teaches, two people learn*". (Quando uma pessoa ensina, duas aprendem.)
 
     Aproveite, portanto, o espaço para ensinar alguma coisa, ou mesmo ensinar enquanto aprende. Nem sempre o objetivo é virar uma 'referência' em determinado assunto através de um blog, mas exercitar a capacidade de explicar ou até mesmo manter notas sobre trabalhos ou projetos que podem auxiliar você no futuro.
     
-3. Ter seu prórpio site pode elevar sua perspectiva, ou seja, além do seu espaço no LinkedIN (como a maioria das outras pessoas), por exemplo, você terá outro espaço que pode auxiliar na conquista de um trabalho, aumentar o networking ou seja, aumentar o seu valor.
+4. Ter seu prórpio site pode elevar sua perspectiva, ou seja, além do seu espaço no LinkedIN (como a maioria das outras pessoas), por exemplo, você terá outro espaço que pode auxiliar na conquista de um trabalho, aumentar o networking, ou seja, aumentar o seu valor.
 
 ## Aprendendo para ensinar
 Posto meu ponto sobre o site, vou disponibilizar como você pode criar seu Website totalmente gratuíto. Vale notar que dependendo da sua familiaridade com computação isso pode ser muito fácil ou um pouco difícil. Mas inicialmente vou tentar apresentar a forma mais fácil, o que necessariamente pode não ser o site mais bonito, mas com certeza será funcional.
@@ -94,7 +106,7 @@ plugins:
 title: [The title of your site]
 description: [A short description of your site's purpose]
 ```
-Obviamente que o título e a descrição do site deverá ser inserido conforme necessidade.
+O título e a descrição do site você deverá inserir julgar melhor.
 
 # Parte 3
 ## Criando arquivos no repositório
@@ -113,6 +125,8 @@ Vou criar um novo arquivo (opção 1) clicando em "creating a new file". O arqui
 Perceba que o nome do arquivo deve ser iniciado por um underline '_'
 
 Após nomear o arquivo e inserir o conteúdo, faça o "Commit changes...", botão verde à esquerda da tela. "Commit changes" mais uma vez...
+
+### Arquivo Markdown (md)
 
 O repositório agora tem um arquivo, o ``_config.yml``. Vamos criar mais um arquivo, o ``index.md``. O arquivo do tipo md (MarkDown) é um arquivo de texto simples que é convertido em HTML. Para ver a sintaxe de um arquivo MarkDown você pode visitar [este site.](https://www.markdownguide.org/basic-syntax/)
 
@@ -156,6 +170,6 @@ Após alguns segundos pode atualizar a página (F5 do seu teclado) e voltar até
 
 ![link](./images/post_1/link.png)
 
-Este é o link para o site que acabei de criar aqui com vocês [Site - Hello World!](https://d-camargo.github.io/hello-world/). Eu não fiz qualquer alteração no texto, porque não é a intenção aqui desse post, mas como esse é seu site, você deverá fazer as alterações pertinentes, como título, etc.
+Este é o link para o site que acabei de criar aqui com vocês [Site - Hello World!](https://d-camargo.github.io/hello-world/). Eu não fiz qualquer alteração no texto, porque não é a intenção aqui desse post, mas como esse é seu site, você deverá fazer as alterações pertinentes, como título, etc. De qualquer forma, perceba que as mudanças devem ser realizadas no arquivo ``index.md``.
 
 É isso, qualquer dúvida só entrar em contato. Valeu!
